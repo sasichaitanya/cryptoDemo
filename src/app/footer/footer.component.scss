@@ -1,0 +1,76 @@
+footer {
+    width: 100%;
+    padding: 1rem 1.25rem;
+}
+.footer-nav {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer-logotext {
+    padding-left: 30px;
+    line-height: 30px;
+    color: white;
+    margin: 0;
+}
+.nav-item {
+    color: white;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.8rem;
+}
+.copy-right {
+    font-size: 0.8rem;
+    color: white;
+    margin: 0;
+}
+.wave {
+    position: absolute;top: -20%;left: 0;
+}
+@media screen and (min-width: 320px) {
+    .wave {
+        top: -5%;
+    }
+    .wave-green {
+        top: -0.5%;
+    }
+}
+@media screen and (min-width: 375px) {
+    .wave {
+        top: -5%;
+    }
+    .wave-green {
+        top: -1%;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .wave {
+        top: -8%;
+    }
+    .wave-green {
+        top: -1%;   
+    }
+}
+@media screen and (min-width: 768px) {
+    .wave {
+        top: -13%;
+    }
+    .wave-green {
+        top: -3.5%;   
+    }
+}
+@media screen and (min-width: 1024px) {
+    .wave {
+        top: -18%;
+    }
+    .wave-green {
+        top: -7%;   
+    }
+}
+@media screen and (min-width: 1440px) {
+    .wave {
+        top: -25%;
+    }
+    .wave-green {
+        top: -7%;   
+    }
+}

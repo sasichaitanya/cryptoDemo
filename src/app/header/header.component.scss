@@ -1,0 +1,16 @@
+.nav-link {
+    font-size: 0.9rem;
+}
+.nav-item {
+    padding: 0 10px;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+.nav-item:hover {
+    background: linear-gradient(to right, #7F7FD5, #86A8E7);
+    color: white;
+    
+}
+.nav-item:hover a {
+    color: white;
+}
