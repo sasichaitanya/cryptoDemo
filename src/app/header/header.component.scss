@@ -3,13 +3,13 @@
 }
 .nav-item {
     padding: 0 10px;
-    transition: all 0.3s;
     border-radius: 5px;
 }
+.nav-item a {
+    color: black;
+}
 .nav-item:hover {
-    background: linear-gradient(to right, #7F7FD5, #86A8E7);
-    color: white;
-    
+    background: linear-gradient(to right, #FF0099, #533581);
 }
 .nav-item:hover a {
     color: white;
