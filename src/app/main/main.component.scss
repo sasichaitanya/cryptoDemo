@@ -200,3 +200,21 @@
     transition: filter 0.5s ease;
     filter: grayscale(100%);
   }
+
+@media screen and (max-width: 425px) {
+  #timeline {
+    display: block;
+  }
+  .tl-item {
+    width: 33.3%;
+    height: 80vh;
+    /* min-height: 600px; */
+    display: inline-block;
+  }
+  .tl-item:hover {
+    width: 33.3% !important;
+  }
+  #timeline:hover .tl-item {
+    width: 33.3% !important;
+  }
+}
