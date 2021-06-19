@@ -186,7 +186,7 @@
     p {
       font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
       font-size: 1.728rem;
-      line-height: 0;
+      // line-height: 0;
     }
   }
   
@@ -206,15 +206,15 @@
     display: block;
   }
   .tl-item {
-    width: 33.3%;
+    width: 50%;
     height: 80vh;
     /* min-height: 600px; */
     display: inline-block;
   }
   .tl-item:hover {
-    width: 33.3% !important;
+    width: 50% !important;
   }
   #timeline:hover .tl-item {
-    width: 33.3% !important;
+    width: 50% !important;
   }
 }
